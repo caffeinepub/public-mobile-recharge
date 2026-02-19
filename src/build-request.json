@@ -1,0 +1,31 @@
+{
+  "kind": "build_request",
+  "title": "Make changes to A2Z Recharge",
+  "projectName": "A2Z Recharge",
+  "priority": "normal",
+  "requirements": [
+    {
+      "id": "REQ-1",
+      "text": "Clarify and specify what changes need to be made to the A2Z Recharge application",
+      "target": "unknown",
+      "source": {
+        "messageIds": [
+          "msg-user-latest"
+        ],
+        "quotes": [
+          "Hamen kuchh changing karna hai"
+        ]
+      },
+      "acceptanceCriteria": [
+        "User provides specific details about what needs to be changed",
+        "Requirements are actionable and testable"
+      ]
+    }
+  ],
+  "constraints": [],
+  "nonGoals": [],
+  "imageRequirements": {
+    "required": [],
+    "edits": []
+  }
+}

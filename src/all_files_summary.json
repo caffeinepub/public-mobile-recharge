@@ -1,0 +1,20 @@
+{
+  "backend/main.mo": "Motoko actor implementing promotional offers management with CRUD operations for creating, toggling, and updating offers, plus query functions to fetch available offers by operator/amount and apply discount calculations (percentage or cashback).",
+  "feature_evidence.json": "Empty feature evidence report JSON file with no features documented.",
+  "frontend-file-summaries.txt": "JSON-formatted summaries of frontend files describing the A2Z Recharge mobile recharge application with promotional offers integration, warm orange/amber branding, and transaction history features.",
+  "frontend/index.css": "Tailwind CSS configuration with custom CSS variables defining light and dark theme color palettes using OKLCH color system with neutral grayscale tones.",
+  "frontend/index.html": "HTML entry point for A2Z Recharge application with meta tags and root div for React mounting.",
+  "frontend/src/App.tsx": "Main React application component managing recharge flow with tabs for recharge form, confirmation view, and transaction history, handling transaction state and applied offers.",
+  "frontend/src/components/ConfirmationView.tsx": "React component displaying successful recharge confirmation with transaction details, applied offer breakdown showing original amount/discount/final amount, and action buttons.",
+  "frontend/src/components/OfferCard.tsx": "React component rendering individual promotional offer cards with discount display, estimated savings, validity dates, applicable operators, and visual states for best/selected offers.",
+  "frontend/src/components/OffersSection.tsx": "React component displaying a grid of promotional offers with loading/empty states, calculating estimated savings per offer, and handling offer selection.",
+  "frontend/src/components/RechargeForm.tsx": "React form component for mobile recharge with validation, operator/amount selection, offer application via hooks, and submission handling with loading states.",
+  "frontend/src/components/TransactionHistory.tsx": "Displays a scrollable list of past recharge transactions with status badges, formatting, and empty state messaging.",
+  "frontend/src/hooks/useActor.ts": "Custom hook that creates and manages an authenticated or anonymous backend actor based on Internet Identity, invalidating dependent queries on identity changes.",
+  "frontend/src/hooks/useInternetIdentity.ts": "React context provider and hook for Internet Identity authentication, managing login state, identity persistence, and AuthClient lifecycle.",
+  "frontend/src/hooks/useQueries.ts": "Defines React Query hooks for backend health checks, fetching available promotional offers, and applying offers via the actor.",
+  "frontend/src/index.css": "Tailwind CSS configuration with custom CSS variables for light/dark theme colors using OKLCH color space and utility classes.",
+  "frontend/src/main.tsx": "Application entry point that sets up React Query and Internet Identity providers, then renders the App component.",
+  "frontend/tailwind.config.js": "Tailwind configuration defining custom theme extensions including OKLCH-based color system, typography, animations, and container settings.",
+  "project_state.json": "Project metadata tracking the A2Z Recharge application state with a pending feature request to clarify required changes."
+}

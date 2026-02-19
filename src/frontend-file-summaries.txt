@@ -1,0 +1,12 @@
+{
+  "frontend/index.html": "HTML entry point with updated title and meta tags for A2Z Recharge branding",
+  "frontend/src/index.css": "Global styles with warm orange/amber color palette using OKLCH color system, avoiding blue and purple tones",
+  "frontend/tailwind.config.js": "Tailwind configuration with custom font family, enhanced shadows, and extended design tokens",
+  "frontend/src/App.tsx": "Main application component with tabbed interface for recharge, confirmation, and transaction history, now supporting applied offers in transactions with A2Z Recharge branding.",
+  "frontend/src/components/RechargeForm.tsx": "Mobile recharge form component with validation, operator selection, amount options, and integrated offers section that fetches and displays available promotional offers dynamically.",
+  "frontend/src/components/ConfirmationView.tsx": "Transaction confirmation view displaying transaction details with success animation, applied offer breakdown showing original amount, discount, and final amount, plus action buttons.",
+  "frontend/src/components/TransactionHistory.tsx": "Transaction history list component showing all recharge transactions sorted by most recent first",
+  "frontend/src/hooks/useQueries.ts": "React Query hooks for backend integration including useAvailableOffers to fetch offers by operator and amount, and useApplyOffer mutation to apply selected offers.",
+  "frontend/src/components/OfferCard.tsx": "Individual offer card component displaying offer title, discount details, estimated savings, applicable operators, validity period, and visual states for best offer and selected offer.",
+  "frontend/src/components/OffersSection.tsx": "Offers section component that displays a grid of promotional offers with loading states, empty states, and calculates estimated savings for each offer based on recharge amount."
+}
